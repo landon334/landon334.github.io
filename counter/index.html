@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Counter</title>
+</head>
+<body>
+  <button onclick="count()">Click</button>
+  <div id="display">
+  </div>
+  <script>
+    counter = 0
+    function count() {
+      counter = counter + 1;
+      document.querySelector("#display").innerHtml = counter;
+    }
+    document.querySelector("#display").innerHtml = counter;
+  </script>
+</body>
+</html>
